@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "529071558246",
+    "firebase_url": "https://recipe-match-fd340-default-rtdb.firebaseio.com",
+    "project_id": "recipe-match-fd340",
+    "storage_bucket": "recipe-match-fd340.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:529071558246:android:9666034f31d03e2ebd27a7",
+        "android_client_info": {
+          "package_name": "com.example.match_recipe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "529071558246-oovhumcrmc8n55i0r29l5hjeticej9hb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAs6PblIUe0zDV9cwQlE_5o5RLM5O9blB0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "529071558246-oovhumcrmc8n55i0r29l5hjeticej9hb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

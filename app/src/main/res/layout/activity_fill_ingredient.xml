@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#FAB333">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="309dp"
+        android:layout_height="500dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-145dp"
+        app:srcCompat="@drawable/hklogo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView2"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="-150dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/recipe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif"
+            android:text="Match Ingredients"
+            android:textColor="#2f3887"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/category"
+            android:layout_width="304dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="#fff"
+            android:fontFamily="sans-serif"
+            android:foregroundTint="#fff"
+            android:hint="Category"
+            android:textColor="#fff"
+            android:textColorHint="#D8D4D4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="sans-serif"
+            android:text="Ingredients"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/txtinput"
+                android:layout_width="302dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="#fff"
+                android:fontFamily="sans-serif"
+                android:foregroundTint="#fff"
+                android:hint="Input new item"
+                android:textColor="#fff"
+                android:textColorHint="#D8D4D4" />
+
+            <Button
+                android:id="@+id/add"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="17dp"
+                android:layout_toRightOf="@+id/txtinput"
+                android:background="@drawable/ic_add_name"
+                app:backgroundTint="#2F3887" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_corner"
+            android:fontFamily="sans-serif"
+            android:text="Search"
+            android:textColor="#FAB333"
+            app:backgroundTint="#2F3887" />
+
+        <ListView
+            android:id="@+id/listv"
+            android:layout_width="317dp"
+            android:layout_height="199dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp" />
+
+    </LinearLayout>
+</RelativeLayout>
